@@ -5,24 +5,83 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-	<title>Hãng sản xuất - ITShop.VN</title>
+	<title>Hãng sản xuất </title>
 </head>
 
 <body>
 	<div class="container">
 		<div id="navbar"></div>
-		
+
 		<div class="card mt-3">
 			<div class="card-header">Hãng sản xuất</div>
 			<div class="card-body">
-				<p class="card-text">Hướng dẫn sử dụng màn hình <strong>Hãng sản xuất</strong>.</p>
+				<p class="card-text">Hướng dẫn sử dụng chức năng <strong>Hãng sản xuất</strong>.</p>
 				<img src="images/hangsanxuat.png" class="img-fluid mx-auto d-block" />
+				<h4 class="mt-3"><a name="danhsach">Danh sách hãng sản xuất</a></h4>
+				<hr />
+				<p>
+					Bất kỳ một hệ thống hay một trang Web nào về kinh doanh các sản phẩm, mặt hàng tiêu dùng đều cần có "Hãng Sản Xuất",
+					Bởi vì Hãng Sản Xuất là một yêu cầu tất yếu của người dùng:
+				</p>
+				<p><strong> 1:</strong> Nguồn gốc sản phẩm: Hãng sản xuất là đơn vị hoặc công ty chịu trách nhiệm sản
+					xuất và giao sản phẩm cho doanh nghiệp kinh doanh. Điều này giúp xác định nguồn gốc, nơi xuất xứ của sản phẩm.
+				<p><strong> 2:</strong> Chất lượng sản phẩm: Thương hiệu của hãng sản xuất thường liên quan đến chất
+					lượng sản phẩm một thương hiệu nổi tiếng và muốn nổi tiếng không thể nào để sản phẩm của mình sản xuất ra kém chất lượng.
+					Người tiêu dùng và doanh nghiệp thường dựa vào uy tín của hãng sản xuất để đánh giá	chất lượng sản phẩm.
+				<p><strong> 3:</strong> Độ tin cậy và bảo hành: Hãng sản xuất cũng chịu trách nhiệm về các chính sách
+					bảo hành và dịch vụ sau bán hàng. Một hãng sản xuất uy tín thường cung cấp dịch vụ bảo hành tốt khi có yêu
+					cầu đổi trả hoặc bồi thường và hỗ trợ khách hàng hiệu quả.				
+				<p><strong> 5:</strong>Đặc điểm kỹ thuật và tiêu chuẩn: Các sản phẩm từ những hãng sản xuất khác nhau có
+					thể tuân theo các tiêu chuẩn và đặc điểm kỹ thuật xử lý sản phẩm và bảo quản khác nhau. 
+
+				<h4 class="mt-3"><a name="them">Thêm hảng sản xuất</a></h4>
+				<hr />
+				<p><strong>Bước 1:</strong> Click "Thêm" (Add): This will enable the input fields for adding a new
+					employee.
+				<p><strong>Bước 2:</strong> Enter the employee details: Fill in the fields such as "Họ và Tên" (Full
+					Name), "Điện thoại" (Phone Number), "Địa chỉ" (Address), "Tên đăng nhập" (Username), "Mật khẩu"
+					(Password), and "Quyền hạn" (Role).
+				<p><strong>Bước 3:</strong> Click "Lưu" (Save): This will save the new employee's information to the
+					database and refresh the employee list.
+
+				<h4 class="mt-3"><a name="sua">Sửa hãng sản xuất</a></h4>
+				<hr />
+				<p><strong>Bước 1:</strong> Chọn hãng sản xuất: Nhấn vào hãng sản xuất bạn muốn sửa trong danh sách.
+				<p><strong>Bước 2:</strong> Nhấn "Sửa": Điều này sẽ bật các trường nhập chỉnh sửa dữ liệu với thông tin của hãng sản xuất
+					được chọn.
+				<p><strong>Bước 3:</strong> Chỉnh sửa thông tin: Sửa các trường cần thiết.
+				<p><strong>Bước 4:</strong>Nhấn "Lưu": Khi nhấn nhắn nút "Lưu" thông tin hãng sản xuất sẽ được cập nhật vào hệ thống cơ sở dữ liệu.
+				<h4 class="mt-3"><a name="xoa">Xóa nhân viên</a></h4>
+				<hr />
+				<p><strong>Bước 1:</strong> Chọn hãng sản xuất: Nhấn vào bản ghi hãng sản xuất bạn muốn xóa từ danh sách.
+				<p><strong>Bước 2:</strong> Nhấn "Xóa": Điều này sẽ hiển thị một hộp thoại xác nhận "Bạn có xóa hãng sản xuất đó không".
+				<p><strong>Bước 3:</strong>Xác nhận xóa: Xác nhận hành động để xóa hãng sản xuất khỏi cơ sở dữ liệu.
+
+				<h4 class="mt-3"><a name="nhap">Nhập (Import) hãng sản xuất từ Excel</a></h4>
+				<hr />
+				<p><strong>Bước 1:</strong> Nhấn "Nhập": Điều này sẽ mở một hộp thoại file.
+				<p><strong>Bước 2:</strong> Chọn file nhập: Chọn file (thường là CSV hoặc Excel) chứa dữ liệu hãng sản xuất.
+				<p><strong>Bước 3:</strong> Tải file lên: Hệ thống sẽ đọc và nhập dữ liệu hãng sản xuất từ file vào cơ sở dữ
+					liệu.
+
+				<h4 class="mt-3"><a name="xuat">Xuất hảng sản xuất ra Excel</a></h4>
+				<hr />
+				<p><strong>Bước 1:</strong> Nhấn "Xuất": Điều này sẽ xuất danh sách hãng sản xuất hiện tại ra một file.
+				<p><strong>Bước 2:</strong>Chọn định dạng xuất: Thường là CSV hoặc Excel.
+				<p><strong>Bước 3:</strong>Tải file về: Lưu file xuất ra vào hệ thống của bạn để sao lưu hoặc báo cáo.
+				<h4 class="mt-3"><a name="huy">Hủy bỏ làm mới</a></h4>
+				<hr />
+				<p><strong>Chỉ một thao tác:</strong> Nhấn "Hủy bỏ": sẽ xóa bỏ bất kỳ thay đổi nào được thực hiện trong
+					các trường nhập liệu và đặt lại chúng về trạng thái ban đầu mà không lưu quá trình nhập liệu.
+				<h4 class="mt-3"><a name="thoat">Thoát cửa sổ</a></h4>
+				<hr />
+				<p><strong>Chỉ một thao tác:</strong> Nhấn "Thoát": sẽ đóng cửa sổ quản lý hãng sản xuất.
 			</div>
 		</div>
-		
+
 		<div id="footer"></div>
 	</div>
-	
+
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 	<script>
